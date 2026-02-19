@@ -15,7 +15,7 @@ The notebook also includes **KMeans clustering on PCA scores** as an optional st
   Includes numeric lifestyle indicators (e.g., income, rent, internet penetration, air quality, transport, density, green space) and location identifiers.
 
 - **Reviews Dataset:** `data/reviews_data.csv`  
-  Includes text reviews (used for TF-IDF + NMF topic modeling). Ratings contain some missing values but are not required for topic extraction.
+  Includes text reviews (used for TF-IDF and NMF topic modeling). Ratings contain some missing values but are not required for topic extraction.
 
 ---
 
@@ -88,18 +88,19 @@ Data handling notes:
 ---
 
 ## Project Structure
+```text
 pca-nmf-unsupervised/
 ├── README.md
 ├── data/
-│ ├── city_lifestyle_dataset.csv
-│ ├── reviews_data.csv
-│ └── README.md
+│   ├── README.md
+│   ├── city_lifestyle_dataset.csv
+│   └── reviews_data.csv
 ├── images/
-│ ├── kmeans_elbow_plot.png
-│ ├── pca_kmeans_clusters_k3.png
-│ ├── pca_scatter_by_region.png
-│ ├── pca_scatter_pc_meaning.png
-│ └── README.md
+│   ├── README.md
+│   ├── kmeans_elbow_plot.png
+│   ├── pca_kmeans_clusters_k3.png
+│   ├── pca_scatter_by_region.png
+│   └── pca_scatter_pc_meaning.png
 └── notebooks/
-├── pca_nmf_analysis.ipynb
-└── README.md
+    ├── README.md
+    └── pca_nmf_analysis.ipynb
