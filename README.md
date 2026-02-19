@@ -88,3 +88,18 @@ Data handling notes:
 ---
 
 ## Project Structure
+pca-nmf-unsupervised/
+├── README.md
+├── data/
+│ ├── city_lifestyle_dataset.csv
+│ ├── reviews_data.csv
+│ └── README.md
+├── images/
+│ ├── kmeans_elbow_plot.png
+│ ├── pca_kmeans_clusters_k3.png
+│ ├── pca_scatter_by_region.png
+│ ├── pca_scatter_pc_meaning.png
+│ └── README.md
+└── notebooks/
+├── pca_nmf_analysis.ipynb
+└── README.md
