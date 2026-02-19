@@ -1,4 +1,4 @@
-# PCA + NMF Unsupervised Analysis (City Lifestyle + Reviews)
+# PCA and NMF Unsupervised Analysis (City Lifestyle and Reviews)
 
 ## Overview
 This project explores two unsupervised learning workflows:
